@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Number() {
+function Number(props) {
+
     return (
         <div className="number">
-          <div>0</div>
+            {props.counter}
         </div>
     );
 }
